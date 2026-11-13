@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For my bb</title>
+<link rel="stylesheet" href="lob.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Georgia, serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #c8b6ff, #add8e6, #e6d6ff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 650px;
+            background: white;
+            padding: 45px;
+            border-radius: 20px;
+            box-shadow: 0 10px 35px rgba(80, 50, 130, 0.25);
+            text-align: center;
+            border: 3px solid #d8c5ff;
+        }
+
+        .heart {
+            font-size: 65px;
+            color: #9b72cf;
+            animation: heartbeat 1.5s infinite;
+            margin-bottom: 15px;
+        }
+
+        
+        h1 {
+            color: #7851a9;
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #75a9c4;
+            font-size: 17px;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        .letter {
+            background: #f5f0ff;
+            border-left: 5px solid #a78bfa;
+            border-radius: 10px;
+            padding: 25px;
+            text-align: left;
+            line-height: 1.9;
+            color: #51436a;
+            font-size: 16px;
+        }
+
+        .letter p {
+            margin-bottom: 18px;
+        }
+
+        .signature {
+            text-align: right;
+            color: #7851a9;
+            font-weight: bold;
+            font-size: 19px;
+            margin-top: 25px;
+        }
+
+        .footer {
+            margin-top: 25px;
+            color: #75a9c4;
+            font-size: 14px;
+        }
+
+        .open-button {
+            background: #9575cd;
+            color: white;
+            padding: 13px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            margin-top: 25px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .open-button:hover {
+            background: #75b9d6;
+            transform: scale(1.05);
+        }
+
+        .hidden-message {
+            display: none;
+            margin-top: 20px;
+            color: #7851a9;
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+        @media(max-width: 500px) {
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 27px;
+            }
+
+            .letter {
+                padding: 18px;
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <h1>for u bebe</h1>
+
+        <p class="subtitle">
+            A short letter for u bb kuh 🩵
+        </p>
+
+        <div class="letter">
+
+            <p>hi bb,</p>
+
+            <p>
+                I just want you to know na im so greatful sa pag dating mo sa 
+                buhay kuh.
+                di ko akakalain na aabot tayo ng ilang months na walang balak na mag hiwalay
+                actually wala pa naman tayo pero yun na nga,thank you so much bb.
+            </p>
+
+            <p>
+                I promise na di kita iiwan,kahit ano pang mangyari 
+                at kahit ilang di pag kakaunawaan o away 
+                ang mangyari,lagi kitang iintindihin at mamahalin.
+            </p>
+
+            <p>
+                I may not be perfect,pero gagawin ko best ko para maramdaman mo 
+                yung love ko for u tyka im willing to give u the love u deserve and
+                im willing to give u what i can and my best.
+                
+            </p>
+
+            <p>
+                di ko na alam masasabi ko sayo,ilove the way na pano moko mamahalin.
+                im so happy with you bebe ko kada kita natin ang saya ng puso ko,
+                kahit minsan nag aaway tayo at di mag kaintindihan di nababawasan pag mamahalaln ko sayo.
+            </p>
+
+            <p>
+                Thank you for being part of my life.
+                kahit di pa tayo ikaw na greatest love ko eh
+                if nag kulang ako tell me or nag kamali ako sabihin mo lang sakin
+                handa ko ayusin yon at itama bb.        
+            </p>
+
+            <p>
+                I love you today, tomorrow, and i always love u. 💜
+            </p>
+<p>
+    Maligaw man at mawala
+At umikot man sa kawalan
+Sa bawat kailan, sino't saan
+Ikaw lamang ang kasagutan.-bawat daan
+
+</p>
+            <div class="signature">
+                I would choose you in every universes bb,<br>
+                mwamwaamwaaa ra tutan 🩵
+            </div>
+
+        </div>
+
+        <button class="open-button" onclick="showMessage()">
+            Click mopo💌
+        </button>
+
+        <div class="hidden-message" id="surprise">
+           ILOVEYOUSOMUCHIEEE BB AND I NEVER EVER LEAVE U💜🩵
+        </div>
+
+        <div class="footer">
+            ILOVEYOUSOMUCHIEEE KANG
+        </div>
+
+    </div>
+
+    <script>
+        function showMessage() {
+            const message = document.getElementById("surprise");
+
+            if (message.style.display === "block") {
+                message.style.display = "none";
+            } else {
+                message.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+</html>
